@@ -1,7 +1,7 @@
-# PCF components list
+# PCF controls list
 ### Author: Raphael Zaneti
 
-In this repository, you can find a list of free PCF components to be used in your Power Apps. To learn more about PCF, check [the offical docs](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview)
+In this repository, you can find a list of free PCF controls created by me, which canbe used in your Power Apps. To learn more about PCF, check [the offical docs](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview)
 
 This repository is part of the [Digital Mill project](http://digitalmill.net/).
 
