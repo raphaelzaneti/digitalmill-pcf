@@ -1,0 +1,27 @@
+.pcf-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+}
+
+.days-label{
+    padding: 0.3rem 1rem;
+}
+
+.message-area{
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 0.3rem 2rem;
+    color: black;
+    font-weight: bold;
+    background-color: gold;
+}
+
+.message-area.danger{
+    background-color: red;
+}
+
+.pcf-container > .date-input{
+    max-width: 50%;
+}   
