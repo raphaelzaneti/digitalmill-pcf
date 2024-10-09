@@ -7,6 +7,7 @@ This is a PCF Component for calculating the number of days relative to the curre
 From the App Maker/Developer's perspective, you can define the base date for day counting, specify whether a higher or lower number of days is favorable, and customize warning/danger messages, along with setting label and text colors for a better visual.
 
 This is how the component looks like:
+![overview](overview.png)
 
 The component contains basically three main elements:
 - **Date picker (in red):** allows the user to visualize and change the date, defined by the "Date" propety, as detailed later in this instructions. 
@@ -42,10 +43,6 @@ Typically, use countdowns to track deadlines, such as task delivery dates, event
 #### Warning days qty
 This property defines the number of days to display the warning message label. For countdowns, the warning days must be **greater than the danger days**, while for count-ups, it must be **less than the danger days**.
 
-For example, if you’re tracking a project delivery deadline and want to flag it when there are 10 days left until delivery:
-
-[SAMPLE OF WARNING LABEL WITHIN 10 DAYS TO DELIVERY DATE]
-
 The input for this property must be a whole positive number, with a default value of zero. Negative values will automatically be converted to positive.
 
 #### Warning label color
@@ -59,10 +56,6 @@ This property sets the text color for the warning label. You can enter either he
 
 ### Danger days qty
 This property defines the number of days to display the danger message label. For countdowns, the danger days must be **greater than the warning days**, while for count-ups, it must be **less than the warning days**.
-
-For example, if you’re tracking a project delivery deadline and want to flag it when there are 5 days left until delivery:
-
-[SAMPLE OF WARNING LABEL WITHIN 10 DAYS TO DELIVERY DATE]
 
 The input for this property must be a whole positive number, with a default value of zero. Negative values will automatically be converted to positive.
 
@@ -84,7 +77,7 @@ Overview of the component without any label, as the counting directions is set t
 
 
 Warning label containing dynamic message (Close to due), text color (fff) and background color (orange): 
-
+![](https://github.com/raphaelzaneti/pcf-gallery/blob/main/dateCounter/daysCounter/img/warning%20label%20in%20form.png)
 
 Warning label in form:
 
