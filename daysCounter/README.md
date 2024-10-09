@@ -74,19 +74,25 @@ This property defines the number of days after which the warning or danger label
 
 ### Examples
 Overview of the component without any label, as the counting directions is set to countdown and date difference is above the warning threshold (10 days):
+
 ![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/daysCounter/daysCounter/img/empty%20label%20for%20above%20threshold.png?raw=true)
 
 Warning label containing dynamic message (Close to due), text color (fff) and background color (orange): 
+
 ![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/daysCounter/daysCounter/img/warning%20label%20config.png?raw=true)
 
 Warning label in form:
+
 ![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/daysCounter/daysCounter/img/warning%20label%20in%20form.png?raw=true)
 
 Danger label containg dynamic messge (VERY CLOSE TO DUE!), text color (f00) and background color (yellow):
+
 ![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/daysCounter/daysCounter/img/danger%20label%20config.png?raw=true)
 
 Danger label in form:
+
 ![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/daysCounter/daysCounter/img/danger%20label%20in%20form.png?raw=true)
 
 Form with no label, as the base date is equal to today (zero days difference), matching to the stop date:
+
 ![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/daysCounter/daysCounter/img/empty%20label%20for%20daysqty%20eq%20zero.png?raw=true)
