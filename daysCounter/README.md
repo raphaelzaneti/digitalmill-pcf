@@ -7,7 +7,7 @@ This is a PCF Component for calculating the number of days relative to the curre
 From the App Maker/Developer's perspective, you can define the base date for day counting, specify whether a higher or lower number of days is favorable, and customize warning/danger messages, along with setting label and text colors for a better visual.
 
 This is how the component looks like:
-![overview](overview.png)
+![overview](https://github.com/raphaelzaneti/pcf-gallery/blob/main/dateCounter/daysCounter/img/overview.png?raw=true)
 
 The component contains basically three main elements:
 - **Date picker (in red):** allows the user to visualize and change the date, defined by the "Date" propety, as detailed later in this instructions. 
@@ -77,7 +77,7 @@ Overview of the component without any label, as the counting directions is set t
 
 
 Warning label containing dynamic message (Close to due), text color (fff) and background color (orange): 
-![](https://github.com/raphaelzaneti/pcf-gallery/blob/main/dateCounter/daysCounter/img/warning%20label%20in%20form.png)
+![img](https://github.com/raphaelzaneti/pcf-gallery/blob/main/dateCounter/daysCounter/img/warning%20label%20in%20form.png?raw=true)
 
 Warning label in form:
 
